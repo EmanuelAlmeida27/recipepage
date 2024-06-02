@@ -1,7 +1,5 @@
 /* INITIAL SETUP */
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-
 :root {
   --nutmeg: hsl(14, 45%, 36%);
   --dark-raspberry: hsl(332, 51%, 32%);
@@ -99,8 +97,7 @@ ol span,
 }
 
 .ingredients,
-.instructions,
-tr {
+.instructions {
   border-bottom: 1px solid hsla(24, 5%, 18%, 20%);
 }
 
@@ -120,10 +117,6 @@ h2 {
 }
 
 /* FOOTER */
-
-table {
-  width: 100%;
-}
 
 .grid {
   display: grid;
@@ -159,12 +152,6 @@ table {
 }
 
 /* MEDIA QUERIES */
-
-/* @media(min-width: 1600px) {
-  .recipe {
-    width: 65%;
-  }
-} */
 
 @media (max-width: 1400px) {
   .recipe {
