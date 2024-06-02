@@ -39,7 +39,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-One thing I learned with this project, which gave me a bit of a headache at first, was how to change the color of bullets in an unordered list and the color and font of numbers in an ordered list. I had no idea this was even possible. But once I figured it out, it was really cool and a great way to practice. Here you can see the code:
+One thing I learned with this project, which gave me a bit of a headache at first, was how to change the color of bullets in an unordered list and the color and font of numbers in an ordered list. I had no idea this was even possible. But I figured it out, it was really cool and a great way to practice. Here you can see the code:
 
 ```css
 .ingredients ul li::marker {
