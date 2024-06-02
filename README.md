@@ -28,7 +28,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://recipepage-rouge.vercel.app/)
+- Live Site URL: [https://recipepage-rouge.vercel.app/](https://recipepage-rouge.vercel.app/)
 
 ## My process
 
@@ -44,21 +44,16 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.ingredients ul li::marker {
+  color: var(--nutmeg);
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+.instructions ol li::marker {
+  color: var(--nutmeg);
+  font-family: sans-serif;
+}
+```
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
